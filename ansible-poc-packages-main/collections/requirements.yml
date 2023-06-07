@@ -1,0 +1,37 @@
+---
+collections:
+
+  - name: amazon.aws
+    source: https://galaxy.ansible.com
+    version: 4.0.0
+  
+  - name: ansible.posix
+    source: https://galaxy.ansible.com
+
+  - name: ansible.windows
+    source: https://galaxy.ansible.com
+
+  - name: chocolatey.chocolatey
+    source: https://galaxy.ansible.com
+    version: 1.2.0
+
+  - name: community.general
+    source: https://galaxy.ansible.com
+
+  - name: community.mysql
+    source: https://galaxy.ansible.com
+
+  # - name: ansible-controller-4.3.0.tar.gz
+  #   type: file
+
+  # - name: ansible.controller
+  #   source: https://galaxy.ansible.com
+    
+  # - name: chocolatey.chocolatey
+  #   source: https://galaxy.ansible.com
+
+  # - name: https://github.com/ansible-collections/community.aws.git
+  #   type: git
+
+  - name: https://github.com/ansible-collections/community.windows.git
+    type: git
