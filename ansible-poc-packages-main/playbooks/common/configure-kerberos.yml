@@ -5,8 +5,8 @@
   vars:
     known_sha1sum: "deb5d9f2b3d2b3357098b231e67c1ebff44d0a9f" # default as of RHEL 8.6
     krb5_conf_path: "/etc/krb5.conf"
-    kerberos_username: "your_username_here"
-    kerberos_password: "your_password_here"
+    kerberos_username: "ENTER_YOUR_USERNAME_HERE"
+    kerberos_password: "ENTER_YOUR_PASSWORD_HERE" # This could be instead add to Ansible Vault and you would just call out Ansible vault vs. entering password - for POC, if you're ok, we're ok. 
     libdefaults_config: |
       default_realm = ACME.COM
     realms_config: |
